@@ -1,0 +1,155 @@
+*{
+    margin: 0px auto;
+    padding: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body */
+
+/* header */
+header{
+    background-color: #eee7ee;
+    height: 70px;
+}
+
+
+/* nav */
+.nav-bar{
+    color: #16161d;
+    
+}
+
+.nav-bar li{
+    align-items: center;
+    display: flex;
+    display: inline;
+    height: 70px;
+    padding: 65px;
+    width: 70px;
+}
+
+li img{
+    align-items: center;
+    display: inline;
+    margin-left: -90px;
+    margin-top: 10px;
+}
+
+
+
+/* container */
+.nav-bar a{
+    color: #16161d;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+a:hover {
+    color: #e2725b;
+    transition: 0.3s ease;
+}
+
+/* main */
+.main{
+    display: block;
+}
+.corpo span{
+    color: lightblue;
+    font-size: 75px;
+    margin-left: 70px;
+}
+
+.corpo h1{
+    font-size: 20px;
+    margin-top: 170px;
+    margin-left: 130px;
+    display: block;
+}
+
+#front{
+    color: #16161d;
+    font-size: 20px;
+    margin-left: 140px;   
+}
+
+/* aside */
+.columm{
+    float: right;
+    height: 300px;
+    margin-top: -300px;
+    margin-right: 100px;
+}
+
+.columm h1{
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 3px solid black;
+}
+
+.columm p{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+#school {
+    font-size: 50px;
+    margin-top: -40px;
+    border-bottom: 3px solid black;
+    
+}
+
+.columm img{
+    width: 280px;
+    height: 380px;
+    margin-top: -30px;
+    margin-right: 90px;
+}
+
+#exp{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+/* projetos */
+.list{
+    line-height: 25px;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.list a{
+    color: #16161d;
+    transition: 0.3s ease;
+    font-weight: bolder;
+}
+
+.list a:hover {
+    color: lightblue;
+    transition: 0.2s ease;
+}
+
+/* footer */
+footer{
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+}
+
+.baixo img{
+    height: 30px;
+    width: 30px;
+    padding: 40px;
+    align-items: center;
+    display: flex;
+    display: inline;
+}
